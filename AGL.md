@@ -1,4 +1,6 @@
 # AGL (Automotive Grade Linux)
+![AGL logo](/agl.png)
+
 -Linux Foundation의 Automotive Grade Linux Workgroup에 의해 주도.  
   // driven by the Automotive Grade Linux Workgroup of the Linux Foundation  
 -자동차 사용 사례를위한 오픈 소스 구성 요소 개선에 관련.  
