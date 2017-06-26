@@ -65,7 +65,7 @@ new = <사용자 클래스>(<요소>="")
 new.save()
 ```
 
-*object 하나만 불러오기  
+* object 하나만 불러오기  
 ```
 no1 = <사용자 클래스>.objects.filter(요소 = "")
 ```
