@@ -3,4 +3,5 @@ Just Do it!!
 Then you will get _something_.
 
 ## Content
-[AGL](/AGL.md)
+* [AGL](/AGL.md)
+* [Django](/django.md)
