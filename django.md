@@ -23,7 +23,7 @@ python3 manage.py startapp <App 이름>
 App : 웹사이트를 기능별로 분류 해놓은 단위
 
 
-* __App DB에 저장__
+* __App DB에 저장__  
 <프로젝트이름>/settings.py에 `INSTALLED_APPS`에 <App 이름> 추가  
 
 * __admin 접속__
@@ -33,14 +33,14 @@ python3 manage.py createsuperuser
 localhost:8000/admin에 접속
 
 
-* __사용자 클래스 사용__
+* __사용자 클래스 사용__  
 __admin.py__ 에 `admin.site.register(<클래스명>)` 추가  
 (?).py `from .models import <클래스명>`
 ```
 python3 mange.py makemigrations
 ```
 
-* __object 구분__
+* __object 구분__  
 `__str__` 메소드 오버라이딩  
 
 * __값 나타내기__
@@ -61,16 +61,16 @@ new = <사용자 클래스>(<요소>="")
 new.save()
 ```
 
-* __object 하나만 불러오기__
+* __object 하나만 불러오기__  
 ```
 no1 = <사용자 클래스>.objects.filter(요소 = "")
 ```
 
-* __템플릿 사용__
+* __템플릿 사용__  
 <App 이름> 밑에 __templates__ 폴더 생성 -> <App 이름> 폴더 생성 -> __index.html__ 생성  
 __views.py__의 index 메소드에 `render(request, <index 경로>)`  
 
-* __동적으로 내용 표시 가능__
+* __동적으로 내용 표시 가능__  
 (views.py)  
 ```
 candidates = Candidate.objects.all()
