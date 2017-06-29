@@ -21,10 +21,10 @@
 
   오리지널은 _CPython_ 임 [참고](http://python-guide-kr.readthedocs.io/ko/latest/starting/which-python.html)
 * __디자인 철학__  
-  > Beautiful is better than ugly.
-  > Explicit is better than implicit.
-  > Simple is better than complex.
-  > Complex is better than complicated.
+  > Beautiful is better than ugly.  
+  > Explicit is better than implicit.  
+  > Simple is better than complex.  
+  > Complex is better than complicated.  
 
   위 철학들을 만족시키는 단 하나의 스타일로 수렴진화
 
