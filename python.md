@@ -50,7 +50,7 @@
     아직 데이터 분석에 특화된 _R_ 언어를 많이 사용하지만 Pandas 등장 이후 Python 이용 경우가 점차 증가  
   + __사물인터넷__  
     _Raspberry Pi3_ 는 홈시어터나 작은 게임기 등으로 만들 수 있는데 Python은 Raspberry Pi3를 제어하는 여러 언어 중 하나임
-  + __머신러닝__  
-
+  + __인공지능__  
+    머신러닝과 딥러닝을 위해 구글에서 만든 오픈소스 라이브러리인 _Tensorflow_
 ### QnA
 * Python 2.x VS Python 3.x
