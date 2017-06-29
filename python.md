@@ -25,9 +25,20 @@
   + Explicit is better than implicit
   + Simple is better than complex
   + Complex is better than complicated
-  
+
   위 철학들을 만족시키는 단 하나의 스타일로 수렴진화
+
 ### 활용
-*
+* __파이썬으로 할 수 있는 일__
+  + 시스템 유틸리티 제작
+  + GUI 프로그래밍
+  + C/C++와의 결합
+  + 웹 프로그래밍
+  + 수치 연산 프로그래밍
+  + 데이터베이스 프로그래밍
+  + 데이터 분석
+  + 사물인터넷
+  + 머신러닝
+
 ### QnA
 * Python 2.x VS Python 3.x
