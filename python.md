@@ -51,6 +51,7 @@
   + __사물인터넷__  
     _Raspberry Pi3_ 는 홈시어터나 작은 게임기 등으로 만들 수 있는데 Python은 Raspberry Pi3를 제어하는 여러 언어 중 하나임
   + __인공지능__  
-    머신러닝과 딥러닝을 위해 구글에서 만든 오픈소스 라이브러리인 _Tensorflow_
+    _Tensorflow_ 는 머신러닝과 딥러닝을 위해 구글에서 만든 오픈소스 라이브러리임  
+
 ### QnA
 * Python 2.x VS Python 3.x
