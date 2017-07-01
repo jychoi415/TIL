@@ -60,6 +60,7 @@ __url.py__ 에 링크 거는 `url(r'^name/(!P<name>.+)/$', views.name')`를 삽�
 
 ### 오류 해결
 `url(r'^name/(!P<name>.+)/$', views.name')` 코드 라인이 잘못된 것을 확인함  
-`url(r'^names/(?P<name>.+)/$', views.names')`로 수정  
   + `^name`을 `names`로, `views.name`을 `views.names`로 수정해야 __view.py__ 의 __names__ 메소드 사용 가능
   + `!P<name>`은 문법상 오류. 오타임
+
+`url(r'^names/(?P<name>.+)/$', views.names)`로 수정  
