@@ -53,3 +53,6 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed  
   File "/home/runam/django/mysite/elections/urls.py", line 6
     url(r'^names/(?P<name>.+)/$', views.names')  
+
+### 원인 분석
+__url.py__ 에 링크 거는 `url(r'^area/(?P<area>.+)/$', views.area')`를 삽입하면 오류를 발생시킴  
