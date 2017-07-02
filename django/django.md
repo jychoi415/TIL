@@ -19,7 +19,7 @@ localhost:8000으로 접속
 ```
 python3 manage.py startapp <App 이름>
 ```
-=> <App 이름> 디렉토리 생성  
+⇒ <App 이름> 디렉토리 생성  
 App : 웹사이트를 기능별로 분류 해놓은 단위
 
 
