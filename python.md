@@ -1,7 +1,7 @@
 # Python
 **_Life is too short, You need Python._**  
 
-1990년 귀도 반 로썸(Guido Van Rossum)이 개발한 인터프리터 언어  
+1990년 귀도 반 로썸(Guido Van Rossum)이 개발한 인터프리터 언어[^1]
 현재 Google, Dropbox 등 에서 많이 사용 중인 언어로 다양한 분야에서 쓰이고 있음  
 시스템 프로그래밍, 하드웨어 제어 등 매우 복잡하고 반복 연산이 많은 프로그램은 파이썬에 적합하지 않음  
 ⇒ 다른 언어로 만든 프로그램은 파이썬 프로그램에 포함시켜 실행 가능함으로 약점 극복
@@ -26,7 +26,7 @@
   > Simple is better than complex.  
   > Complex is better than complicated.  
 
-  위 철학들을 만족시키는 단 하나의 스타일로 수렴진화
+  위 철학들을 만족시키는 단 하나의 스타일로 수렴 진화
 
 ### 활용
 * __파이썬으로 할 수 있는 일__  
@@ -55,3 +55,5 @@
 
 ### QnA
 * Python 2.x VS Python 3.x
+
+[^1]: 한 줄씩 소스 코드를 해석해서 그 때마다 실행해 결과를 바로 확인할 수 있는 언어
