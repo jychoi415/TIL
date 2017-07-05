@@ -57,7 +57,7 @@
 * __Python 2.x VS Python 3.x__  
 Python 3.x에서 모든 변수가 __객체__ 로 처리됨  
 
-|             |               Python 2.x              |               Python 3.x              |
+|| Python 2.x | Python 3.x |
 |-------------|-------------------------------------|-------------------------------------|
 | __print문__     | print 'hello' / print( 'hello' )        | print( 'hello' )                      |
 | __int 나누기__  | print( 1/2 )  _# 0_                      | print( 1/2 ) _# 0.5_                    |
