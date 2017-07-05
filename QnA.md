@@ -4,6 +4,7 @@
 
 ### My Question
 * Python 2.x VS 3.x?
+* 나를 위한 언어?
 
 ### My Study
 * Markdown
