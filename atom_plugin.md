@@ -4,5 +4,5 @@
 + highlight-line
 + minimap
 + file-icons
-+ markdown-preview-enhanced
++ markdown-preview-enhanced  
   ⇒ makdown-preview : disable
