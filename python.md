@@ -56,12 +56,10 @@
 ### QnA
 * __Python 2.x VS Python 3.x__  
 Python 3.x에서 모든 변수가 __객체__ 로 처리됨  
-|                 |                                      Python 2.x                                      |                                     Python 3.x                                     |  
-|-----------------|:------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|  
-| print문         | print 'hello' print( 'hello' )                                                       | print( 'hello' )                                                                   |  
-| str & unicode   | print( type( 'hello' ) ) print( type( u'hello' ) ) # <type 'str'> # <type 'unicode'> | print( type( 'hello' ) ) print( type( u'hello' ) ) # <class 'str'> # <class 'str'> |  
-| int 나누기 결과 | print( 1/2 ) # 0                                                                     | print( 1/2 ) # 0.5                                                                 |  
-| long 자료형     | print( type(2**100) ) # <type 'long'>                                                | print( type(2**100) ) # <class 'int'>                                              |  
 
-
+|             |               Python 2.x              |               Python 3.x              |
+|-------------|-------------------------------------|-------------------------------------|
+| __print문__     | print 'hello' / print( 'hello' )        | print( 'hello' )                      |
+| __int 나누기__  | print( 1/2 )  _# 0_                      | print( 1/2 ) _# 0.5_                    |
+| __long 자료형__ | print( type(2**100) )  _#<type 'long'>_ | print( type(2**100) ) _#<class 'int'>_ |
 [^1]: 한 줄씩 소스 코드를 해석해서 그 때마다 실행해 결과를 바로 확인할 수 있는 언어
