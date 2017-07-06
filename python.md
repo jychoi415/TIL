@@ -1,15 +1,22 @@
 # Python
 **_Life is too short, You need Python._**  
 
-1990년 귀도 반 로썸(Guido Van Rossum)이 개발한 인터프리터 언어[^1]  
-[^1]: 한 줄씩 소스 코드를 해석해서 그 때마다 실행해 결과를 바로 확인할 수 있는 언어  
-
+1990년 귀도 반 로썸(Guido Van Rossum)이 개발한 인터프리터 언어  
 현재 _Google_, _Dropbox_ 등 에서 많이 사용 중인 언어로 다양한 분야에서 쓰이고 있음  
 시스템 프로그래밍, 하드웨어 제어 등 매우 복잡하고 반복 연산이 많은 프로그램은 파이썬에 적합하지 않음  
 ⇒ 다른 언어로 만든 프로그램은 파이썬 프로그램에 포함시켜 실행 가능함으로 약점 극복
 
 ### 특징
-* __언어 구현__  
++ __디자인 철학__  
+  > Beautiful is better than ugly.  
+  > Explicit is better than implicit.  
+  > Simple is better than complex.  
+  > Complex is better than complicated.  
+
+  위 철학들을 만족시키는 __단 하나의 스타일__ 로 수렴 진화
++ __인터프리터 언어__  
+  Python은 한 줄씩 소스 코드를 해석하여 그 때마다 실행해 결과를 바로 확인할 수 있는 언어임
++ __언어 구현__  
   + __CPython__  
     보통 말하는 C언어로 구현되어 있음.
   + __IronPython__  
@@ -21,17 +28,10 @@
   + __PyPy (=RPython)__  
     Python 자체로만 구현  
 
-  오리지널은 _CPython_ 임 [참고](http://python-guide-kr.readthedocs.io/ko/latest/starting/which-python.html)
-* __디자인 철학__  
-  > Beautiful is better than ugly.  
-  > Explicit is better than implicit.  
-  > Simple is better than complex.  
-  > Complex is better than complicated.  
-
-  위 철학들을 만족시키는 __단 하나의 스타일__ 로 수렴 진화
+  오리지널은 _CPython_ 임
 
 ### 활용
-* __파이썬으로 할 수 있는 일__  
++ __파이썬으로 할 수 있는 일__  
   + __시스템 유틸리티 제작__  
     운영체제의 시스템 명령어를 이용할 수 있는 도구들을 갖추어 여러 시스템 유틸리티를 만드는데 유리
   + __GUI 프로그래밍__  
@@ -55,8 +55,11 @@
   + __인공지능__  
     _Tensorflow_ 는 머신러닝과 딥러닝을 위해 구글에서 만든 오픈소스 라이브러리임  
 
+### 문법
++ __리스트__
++ __딕셔너리__
 ### QnA
-* __Python 2.x VS Python 3.x__  
++ __Python 2.x VS Python 3.x__  
 Python 3.x에서 모든 변수가 __객체__ 로 처리됨  
 
 || Python 2.x | Python 3.x |
@@ -65,9 +68,10 @@ Python 3.x에서 모든 변수가 __객체__ 로 처리됨
 | __int 나누기__ | print( 1/2 )  _# 0_ | print( 1/2 ) _# 0.5_ |
 | __long 자료형__ | print( type(2**100) )  _#<type 'long'>_ | print( type(2**100) ) _#<class 'int'>_ |
 
-* __Python은 쉬운 언어일가?__  
++ __Python은 쉬운 언어일가?__  
 
 ___
 #### 참조
 [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables)  
-[점프 투 파이썬](https://wikidocs.net/book/1)
+[점프 투 파이썬 Wikidocs](https://wikidocs.net/book/1)
+[Python 언어 구현](http://python-guide-kr.readthedocs.io/ko/latest/starting/which-python.html)
