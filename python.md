@@ -66,3 +66,8 @@ Python 3.x에서 모든 변수가 __객체__ 로 처리됨
 | __long 자료형__ | print( type(2**100) )  _#<type 'long'>_ | print( type(2**100) ) _#<class 'int'>_ |
 
 * __Python은 쉬운 언어일가?__  
+
+___
+#### 참조
+[Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables)  
+[점프 투 파이썬](https://wikidocs.net/book/1)
