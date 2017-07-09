@@ -80,3 +80,7 @@ This is testing[^1]
 ```
 + __표 만들기__  
 [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables)  
+
+| * | 1 | 2 |  
+|---|---|---|  
+| 1 | 2 | 3 |
