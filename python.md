@@ -56,7 +56,15 @@
     _Tensorflow_ 는 머신러닝과 딥러닝을 위해 구글에서 만든 오픈소스 라이브러리임  
 
 ### 문법
+파이썬에는 두 가지 다른 시퀀스 구조가 있음. __튜플__ 과 __리스트__ 임.  
+각 요소는 어떤 객체도 가능함.  
+단 하나의 스타일로 수렴 진화하는 파이썬이 리스트와 튜플 모두 포함하는 이유  
+⇒ 튜플은 불변 _(immtable)_ 하고 리스트는 변경 가능 _(mutable)_ 함.
 + __리스트__  
+  리스트는 데이터를 순차적으로 파악하는데 유용.  
+  ⇒ 특히 내용의 순서가 바뀔 수 있다는 점에서 유용.  
+  리스트의 현재 위치에 새로운 요소 추가, 삭제 혹은 기존 요소를 덮어 쓸 수 있음.  
+  리스트에는 동일한 값이 여러 번 나타날 수 있음.
   ```
   a = []
   b = [1,2,3]
@@ -65,7 +73,7 @@
   ```
   비어있는 리스트는 `a = list()`로 생성
   + __슬라이싱__  
-    
+
 + __튜플__  
 
 + __딕셔너리__  
@@ -84,6 +92,6 @@ Python 3.x에서 모든 변수가 __객체__ 로 처리됨
 
 ___
 #### 참조
-[Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables)  
 [점프 투 파이썬 Wikidocs](https://wikidocs.net/book/1)
-[Python 언어 구현](http://python-guide-kr.readthedocs.io/ko/latest/starting/which-python.html)
+[Python 언어 구현](http://python-guide-kr.readthedocs.io/ko/latest/starting/which-python.html)  
+[도서]처음 시작하는 파이썬(빌 루바노닉 저_한빛미디어 출판)
