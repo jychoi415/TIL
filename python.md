@@ -77,7 +77,6 @@
     ```
     list = ['apple','banana','lemon']
     list[0:2]
-
     # ['apple','banana']
     ```
     슬라이스에 __스탭__ 사용 가능.
@@ -87,6 +86,13 @@
 
     list[::-1]
     # ['lemon','banana','apple']
+    ```
+  + __항목 추가__  
+    리스트는 변경 가능하기 때문에 `append()`로 새 항목을 추가할 수 있다.
+    ```
+    list.append('grape')
+    list
+    # ['apple','banana','lemon', 'grape']
     ```
 + __셋__  
   요소들이 순서 상관없이 유일한 값으로 유지되어야 한다면 리스트보다 셋을 사용하는 게 유용.
