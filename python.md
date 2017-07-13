@@ -94,6 +94,20 @@
     list
     # ['apple','banana','lemon', 'grape']
     ```
+  + __리스트 병합__  
+    `extend()`와 `+=`를 사용하여 다른 리스트를 병합할 수 있다.
+    ```
+    beverage1 = ['coke']
+    beverage2 = ['cider']
+    list.extend(beverage1)
+    list
+    # ['apple','banana','lemon', 'grape', 'coke']
+
+    list += beverage2
+    list
+    # ['apple','banana','lemon', 'grape', 'coke', 'cider']
+    ```
+    `append()`를 사용하면 병합되지 않고 하나의 리스트 요소로 추가된다. 이는 리스트가 다른 타입의 요소를 포함할 수 있다는 것을 보여준다.
 + __셋__  
   요소들이 순서 상관없이 유일한 값으로 유지되어야 한다면 리스트보다 셋을 사용하는 게 유용.
 + __튜플__  
